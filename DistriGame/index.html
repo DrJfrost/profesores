@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Juego llorona">
+		<meta name="keywords" content="canvas colisiones jquery ajax">
+		<meta name="author" content="Alejandro Daza">
+		<title>DistriGame</title>
+		
+		<link rel="stylesheet" type="text/css" href="estilos/default.css" media="screen">
+		<script src="js/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+		<script src="js/quica.js" language="JavaScript1.2"></script>
+		<script src="js/profe.js" language="JavaScript1.2"></script>
+		<script src="js/calaca1.js" language="JavaScript1.2"></script>
+		<script src="js/script.js" language="JavaScript1.2"></script>
+		<link rel="icon" href="imagenes/icon.ico">
+		
+		
+	</head>
+	<body>
+			<div id="popup" style="display: none;">
+				<div class="container">
+					<div class="user"><a href="#" id="close"><img src="imagenes/close.png"/></a></div>
+					<div>
+					   <h2>Teclado</h2>
+					   <img src="imagenes/teclado.png"/>
+					   <h2>Creditos</h2>
+					   <p>Alejandro Paolo Daza Corredor</p>
+						<p>Universidad Distrital FJC</p>
+						<p>EDIT:</p>
+						<p>Jhon Sebastian Pulido Peña</p>
+						<p>Julian Alveiro Rojas Avellaneda</p>
+					</div>
+				</div>
+			</div>
+        	<div class="tittle">DistriGame</div>
+			<button id="instrucciones" class="container">Instrucciones</button><br>
+			<button id="iniciar" class="container">Iniciar</button>
+
+		<div class="container">
+			<canvas id="mi_canvas" width="640" height="480">
+				Tu navegador no es compatible
+			</canvas>
+		</div>
+		<audio id="pierde">
+			<source src="sonidos/pierde_vida.wav" type="audio/ogg">
+				Tu navegador no es compatible
+		</audio>
+		<audio id="premio">
+						<source src="sonidos/premio.wav" type="audio/mpeg">
+			Tu navegador no es compatible
+		</audio>
+		<audio id="pierde_juego">
+						<source src="sonidos/muere.wav" type="audio/mpeg">
+			Tu navegador no es compatible
+		</audio>
+
+		<img id="abajo" src="imagenes/1.png"/>
+		<img id="arriba" src="imagenes/2.png"/>
+		<img id="salto" src="imagenes/4.png"/>
+		<img id="sentado" src="imagenes/3.png"/>
+		<img id="calaca_1" src="imagenes/especiales.png"/>
+		<img id="calaca_3" src="imagenes/patrones.png"/>
+		<img id="calaca_2" src="imagenes/ciencias.png"/>
+		<img id="calaca_4" src="imagenes/ciber.png"/>
+
+		
+		
+	</body>
+</html>

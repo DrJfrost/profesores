@@ -1,0 +1,148 @@
+body {
+	background-color:#000000;
+	background: #000000 url('https://cdn.vectorstock.com/i/1000x1000/61/69/binary-code-dark-blue-background-big-data-vector-17996169.jpg')no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: top;
+}
+	
+	text-align: center;
+}
+
+h1, h3{
+	color: #2fd8e5;
+}
+.shadow{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 90%, #000000);
+    right: 0;
+    z-index: 1;
+}
+
+.container{
+    z-index: 1;
+	margin: auto;
+	display: block;
+	position: relative;
+	top: 5em;
+	background-color: rgba(1, 1, 1, 0.5);
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	border-radius: 2em;
+	color: #a7e6ff;
+	border-style: unset;
+}
+section {
+	float:left;
+	clear:none;
+	background:url('../imagenes/trasparente.png');
+	border:2px solid;
+	border-color: #01eded;
+	border-radius:15px;
+	margin:2em 0.5em;
+	padding:0.5em 3em;
+	text-align: center;
+}
+
+canvas {
+    margin-left: 0;
+	margin-right: 0;
+	background: url('../imagenes/fondo.png');
+    background-size: auto auto;
+	background-size: 100%;
+	color: #01eded;
+	border: 2px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+	border-color: #b9cbff;
+	border-radius: 15px;
+	filter: drop-shadow(0px 0px 4px 
+}
+
+p {
+	color: #ff0e09;
+}
+
+button {
+	margin:0.3em;
+	color:#555555;
+}
+
+#arriba, #abajo, #salto, #sentado, #calaca_1, #calaca_2 ,#calaca_3 {
+	display:none;
+}
+
+#popup {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.content-popup {
+    margin:0px auto;
+    margin-top:120px;
+    position:relative;
+    padding:10px;
+    width:500px;
+    min-height:250px;
+    border-radius:25px;
+    background:url('../imagenes/trasparente.png');
+    box-shadow: 0 2px 5px #666666;
+}
+
+.content-popup h2 {
+    color:#48484B;
+    border-bottom: 1px solid #48484B;
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+
+.popup-overlay {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display:none;
+    background-color: #017878;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.close {
+    position: absolute;
+    right: 15px;
+}
+.user{
+    padding: 2em 1em;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Gugi', cursive;
+    color: #01eded;
+    transition: all .2s;
+    cursor: url(img/pointer2.cur), auto;
+}
+
+.user:hover{
+    transform: scale(1.05);
+    filter:drop-shadow(2px 6px 4px #001124);
+}
+.tittle{
+    font-size: 7em;
+	font-family: 'Akronim', cursive;
+	color: #c2eaff;
+	text-shadow: 2px 2px 15px;
+}
